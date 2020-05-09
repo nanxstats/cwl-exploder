@@ -1,0 +1,17 @@
+.btn-dnd {
+  color: #666 !important;
+  background-color: #FFF;
+  border-color: #666;
+  border-width: .2rem;
+  border-style: dashed;
+  border-radius: 20px !important;
+}
+
+.progress {
+  height: 24px;
+}
+
+.progress .progress-bar {
+  font-size: 14px;
+  line-height: 24px;
+}
