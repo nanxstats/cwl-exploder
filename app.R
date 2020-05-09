@@ -1,5 +1,6 @@
 library("shiny")
 library("shinydashboard")
+library("htmltools") # remotes::install_github("rstudio/htmltools@984b39c")
 
 ui <- uiOutput("ui")
 
