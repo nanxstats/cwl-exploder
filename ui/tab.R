@@ -18,11 +18,11 @@ tabPanel(
 
     fluidRow(
       column(
-        width = 12,
+        width = 6, offset = 3,
         fileInput1("cwl", label = "", buttonLabel = "")
       ),
       column(
-        width = 12,
+        width = 6, offset = 3,
         uiOutput("ui_download")
       )
     )

@@ -35,7 +35,7 @@ fileInput1 <- function(inputId, label, multiple = FALSE, accept = NULL, width = 
           br(), br(),
           tags$image(src = "arrow-alt-circle-down-regular.svg", width = "100px"),
           div(p("Drop your workflow (.cwl or .json) here!"), style = "font-size: 2.5rem; font-weight: 700; padding-top: 2rem; padding-bottom: 0.5rem;"),
-          div(p("One workflow each time, max 20 MB."), style = "font-size: 1.5rem; font-weight: 500;"),
+          div(p("One workflow at a time, max 20 MB."), style = "font-size: 1.5rem; font-weight: 500;"),
           br()
         )
       )
